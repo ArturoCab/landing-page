@@ -2,3 +2,11 @@ div{
     border: 3px dashed black;
     background-color: antiquewhite;
 }
+header{
+    border: 3px dashed black;
+    background-color: blue;
+}
+footer{
+    border: 3px dashed black;
+    background-color: cyan;
+}
