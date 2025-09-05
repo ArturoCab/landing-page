@@ -46,3 +46,34 @@ header>ul{
     flex-direction: row;
     align-items: center;
 }
+
+div.awesome{
+    display: flex;
+    flex-direction: row;
+}
+div.main1{
+    display: flex;
+    flex-direction: column;
+}
+div.cards{
+    display: flex;
+    flex-direction: row;
+} 
+div.main2{
+    display: flex;
+    flex-direction: column;
+}
+div.contactme{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    color: #f9faf8;
+    align-items: center;
+    justify-content: center;
+}
+footer>p{
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
