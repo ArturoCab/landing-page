@@ -1,12 +1,39 @@
 div{
-    border: 3px dashed black;
-    background-color: antiquewhite;
+    /* border: 3px dashed black; */
+    /* background-color: antiquewhite; */
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto",sans-serif;
+}
+
 header{
-    border: 3px dashed black;
-    background-color: blue;
+    display: flex;
+    justify-content: space-around;
 }
-footer{
-    border: 3px dashed black;
-    background-color: cyan;
+
+header, footer{
+    background-color: #1f2937;
+}
+
+header>.logo{
+    color: #f9faf8;
+    font-size: 24px ;
+    align-self: center;
+}
+
+
+header>ul>li{
+    color: #e5e7eb;
+    font-size: 18px;
+    list-style-type: none;
+    
+    margin: 1vh;
+}
+header>ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
